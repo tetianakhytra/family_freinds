@@ -35,7 +35,7 @@ export default function FavoritesPage() {
     <main className="p-4 bg-[#fff7f6] min-h-screen">
       <Header />
 
-      {/* 🔙 Back arrow */}
+  
       <Link
         href="/"
         className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm rounded-full p-2 shadow-sm hover:bg-white transition mb-4"

@@ -58,18 +58,18 @@ export default function PetImageCard({ image, location, product }) {
   onClick={toggleFavorite}
   className={`absolute top-5 right-5 rounded-full p-2 shadow-sm z-20 transition-transform ${
     isFav
-      ? "bg-[#fde2df]" // pink when active
-      : "bg-white/80 hover:bg-white/90" // light hover
+      ? "bg-[#fde2df]" 
+      : "bg-white/80 hover:bg-white/90" 
   }`}
 >
   <Star
     className="w-5 h-5 transition-all"
-    fill={isFav ? "#f2968f" : "none"} // only filled when active
-    stroke={isFav ? "#f2968f" : "#555"} // gray outline when inactive
+    fill={isFav ? "#f2968f" : "none"} 
+    stroke={isFav ? "#f2968f" : "#555"} 
   />
 </button>
 
-      {/* 📍 Location label */}
+
       <div className="absolute bottom-5 left-5 bg-[#e4d7d4]/80 backdrop-blur-md px-3 py-1 rounded-2xl flex items-center gap-2 text-sm z-10">
         <div className="w-6 h-6 rounded-full overflow-hidden">
           <Image src={image} alt="thumb" width={24} height={24} />

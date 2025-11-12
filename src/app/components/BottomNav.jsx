@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Home, Star } from "lucide-react"; // icons from lucide-react
+import { Home, Star } from "lucide-react"; 
 
 export default function BottomNav() {
   return (

@@ -7,10 +7,10 @@ import PetUpdated from "../components/PetUpdated";
 import BottomNav from "@/app/components/BottomNav";
 
 export default async function PetDetails({ params }) {
-  // get the product id from the URL
+  
   const { id } = await params;
 
-  // get product data from API
+
   const res = await fetch(`https://dummyjson.com/products/${id}`, { cache: "no-store" });
   const product = await res.json();
 
